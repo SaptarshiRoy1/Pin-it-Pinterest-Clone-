@@ -10,6 +10,8 @@ const passport = require('passport');
 var expressSession = require("express-session")
 const flash = require("connect-flash")
 
+const PORT = process.env.PORT || 3000
+
 var app = express();
 
 // view engine setup
